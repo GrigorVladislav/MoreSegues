@@ -17,9 +17,10 @@ class NewContactViewController: UIViewController {
     @IBAction func cancel(_ sender: Any) {
     }
     
-    @IBAction func done(_ sender: Any) {
+    func fillContact(){
         newContact = Contact(image: avatarImageView?.image, name: nameTextField?.text, phone: phoneTextField?.text)
     }
+    
     @IBOutlet weak var avatarImageView: UIImageView?
     @IBOutlet weak var nameTextField: UITextField?
     @IBOutlet weak var phoneTextField: UITextField?

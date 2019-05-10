@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		041B74092285863800C8EC34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041B74082285863800C8EC34 /* AppDelegate.swift */; };
-		041B740B2285863800C8EC34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041B740A2285863800C8EC34 /* ViewController.swift */; };
 		041B740E2285863800C8EC34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041B740C2285863800C8EC34 /* Main.storyboard */; };
 		041B74102285863900C8EC34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041B740F2285863900C8EC34 /* Assets.xcassets */; };
 		041B74132285863900C8EC34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041B74112285863900C8EC34 /* LaunchScreen.storyboard */; };
@@ -21,7 +20,6 @@
 /* Begin PBXFileReference section */
 		041B74052285863800C8EC34 /* MoreSegues.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoreSegues.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		041B74082285863800C8EC34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		041B740A2285863800C8EC34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		041B740D2285863800C8EC34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		041B740F2285863900C8EC34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		041B74122285863900C8EC34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -63,7 +61,6 @@
 			isa = PBXGroup;
 			children = (
 				041B74082285863800C8EC34 /* AppDelegate.swift */,
-				041B740A2285863800C8EC34 /* ViewController.swift */,
 				041B740C2285863800C8EC34 /* Main.storyboard */,
 				041B74262285A42100C8EC34 /* DetailContactViewController.swift */,
 				041B74242285A35000C8EC34 /* NewContactViewController.swift */,
@@ -150,7 +147,6 @@
 				041B741B22858B3700C8EC34 /* ContactsListViewController.swift in Sources */,
 				041B74252285A35000C8EC34 /* NewContactViewController.swift in Sources */,
 				041B742322858E1500C8EC34 /* Contact.swift in Sources */,
-				041B740B2285863800C8EC34 /* ViewController.swift in Sources */,
 				041B74272285A42100C8EC34 /* DetailContactViewController.swift in Sources */,
 				041B74092285863800C8EC34 /* AppDelegate.swift in Sources */,
 			);
