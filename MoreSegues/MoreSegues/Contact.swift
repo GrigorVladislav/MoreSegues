@@ -11,10 +11,10 @@ import UIKit
 struct Contact
 {
     var image: UIImage?
-    var name: String
-    var phone: String
+    var name: String?
+    var phone: String?
     
-    init(image: UIImage?, name: String, phone: String) {
+    init(image: UIImage?, name: String?, phone: String?) {
         self.image = image
         self.name = name
         self.phone = phone

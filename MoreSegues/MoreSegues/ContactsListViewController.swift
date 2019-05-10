@@ -16,8 +16,8 @@ class ContactsListViewController: UIViewController, UITableViewDelegate, UITable
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.dataSource = self
-        tableView.delegate = self
+        tableView?.dataSource = self
+        tableView?.delegate = self
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -39,5 +39,5 @@ class ContactsListViewController: UIViewController, UITableViewDelegate, UITable
         return ""
     }
     
-    @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var tableView: UITableView?
 }

@@ -9,11 +9,18 @@
 import UIKit
 
 class NewContactViewController: UIViewController {
-
+    var newContact: Contact? = nil
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-    @IBOutlet var avatarImageView: UIView!
-    @IBOutlet var nameTextField: UIView!
-    @IBOutlet var phoneTextField: UIView!
+    
+    @IBAction func cancel(_ sender: Any) {
+    }
+    
+    @IBAction func done(_ sender: Any) {
+        newContact = Contact(image: avatarImageView?.image, name: nameTextField?.text, phone: phoneTextField?.text)
+    }
+    @IBOutlet weak var avatarImageView: UIImageView?
+    @IBOutlet weak var nameTextField: UITextField?
+    @IBOutlet weak var phoneTextField: UITextField?
 }
