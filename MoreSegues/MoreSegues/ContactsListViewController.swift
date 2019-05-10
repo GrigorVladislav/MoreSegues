@@ -14,6 +14,8 @@ class ContactsListViewController: UIViewController, UITableViewDelegate, UITable
         Contact(image: nil, name: "Kate", phone: "(888) 123 5412")
     ]
     
+    var myContact: Contact = Contact(image: nil, name: "Irina", phone: "(111) 333 1234")
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView?.dataSource = self
